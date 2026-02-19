@@ -12,5 +12,5 @@
 -  DOM manipulation;
 --- 
 ## Links:
-- [GitHub](https://github.com/siddik-rahman/intro-component-with-signup-form)
-- [Live Site](https://siddik-rahman.github.io/intro-component-with-signup-form/)
+- [GitHub](https://github.com/siddik-rahman/intro-component-with-signup-form-master)
+- [Live Site](https://siddik-rahman.github.io/intro-component-with-signup-form-master/)
