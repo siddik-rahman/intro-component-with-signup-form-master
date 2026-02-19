@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     if(fname.value.trim() === "") {
         fname.placeholder= "First name cannot be empty";
-        fname.classList.add("error") = "hsl(0, 100%, 74%)";
+        fname.classList.add("error");
    
     } else {
         fname.placeholder= "First Name";
@@ -17,21 +17,21 @@ form.addEventListener("submit", (e) => {
     }
     if(lname.value.trim() === "") {
         lname.placeholder = "Last name cannot be empty";
-        lname.classList.add("error") = "hsl(0, 100%, 74%)";
+        lname.classList.add("error");
     } else {
         lname.placeholder = "Last Name";
         lname.classList.remove("error");
     }
     if(email.value.trim() === "") {
         email.placeholder= "Looks like this is not an email";
-        email.classList.add("error") = "hsl(0, 100%, 74%)";
+        email.classList.add("error");
     } else {
         email.placeholder= "Email";
         email.classList.remove("error");
     }
     if(password.value.trim() === "") {
         password.placeholder = "Password cannot be empty";
-        password.classList.add("error") = "hsl(0, 100%, 74%)";
+        password.classList.add("error");
     } else {
         password.placeholder = "Password";
         password.classList.remove("error");
