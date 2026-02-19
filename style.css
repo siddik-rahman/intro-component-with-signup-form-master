@@ -100,8 +100,9 @@ form a {
     font-weight:600;
     cursor:pointer;
 }
-input.error::placeholder {
-    color:hsl(0, 100%, 74%);
+.error {
+     border:2px solid hsl(0, 100%, 74%);
+     color:hsl(0, 100%, 74%);
 }
 .attribution {
     display:none;
